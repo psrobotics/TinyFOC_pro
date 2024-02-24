@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AON7544
+D MOSFET N Trench 30V 30A(Tc) 2.2V @ 250uA 5 m @ 20A,10V DFN-8_3x3 EP RoHS
+K
+F https://datasheet.lcsc.com/lcsc/1912111437_Alpha---Omega-Semicon-AON7544_C315567.pdf
+$ENDCMP
+#
+#End Doc Library

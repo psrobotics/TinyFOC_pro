@@ -1,0 +1,208 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AON7544"
+   (description "MOSFET N Trench 30V 30A(Tc) 2.2V @ 250uA 5 m @ 20A,10V DFN-8_3x3 EP RoHS")
+   (family "TRX")
+   (package "AON7544")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/lcsc/1912111437_Alpha---Omega-Semicon-AON7544_C315567.pdf")
+   (attribute "Geometry.Height" "0.9mm")
+   (attribute "Manufacturer_Name" "Alpha & Omega Semiconductors")
+   (attribute "Manufacturer_Part_Number" "AON7544")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "AON7544")
+    (pin "S_1" 1 PS)
+    (pin "S_2" 2 PS)
+    (pin "S_3" 3 PS)
+    (pin "G" 4 PS)
+    (pin "D_1" 5 PS)
+    (pin "D_2" 6 PS)
+    (pin "D_3" 7 PS)
+    (pin "D_4" 8 PS)
+    (pin "D_5" 9 PS)
+    (pin "D_6" 10 PS)
+    (pin "D_7" 11 PS)
+   )
+  )
+  (symbol "AON7544"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AON7544"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.605 2.65)
+      (pt 2.605 2.65)
+      (pt 2.605 -2.65)
+      (pt -2.605 -2.65)
+      (pt -2.605 2.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 -0.4)
+      (pt -1.5 -1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.5 -1.5)
+      (pt 1.5 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.5 0.4)
+      (pt 1.5 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 0.4)
+      (pt -1.5 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 -1.4)
+      (arc (pt -2.200 -1.400) (pt -2.200 -1.450) (pt -2.100 -1.350) (start 180.0) (sweep 180.0))
+      (pt -2.1 -1.4)
+      (arc (pt -2.100 -1.400) (pt -2.200 -1.450) (pt -2.100 -1.350) (start 180.0) (sweep .0))
+      (pt -2.2 -1.4))))
+   (leg 1 (pt -0.975 -1.400) (padstack 0))
+   (leg 2 (pt -0.325 -1.400) (padstack 0))
+   (leg 3 (pt 0.325 -1.400) (padstack 0))
+   (leg 4 (pt 0.975 -1.400) (padstack 0))
+   (leg 5 (pt 0.975 1.500) (padstack 5))
+   (leg 6 (pt 0.325 1.500) (padstack 6))
+   (leg 7 (pt -0.325 1.500) (padstack 7))
+   (leg 8 (pt -0.975 1.500) (padstack 8))
+   (leg 9 (pt -1.415 0.000) (padstack 9))
+   (leg 10 (pt 0.000 0.360) (padstack 10))
+   (leg 11 (pt 1.415 0.000) (padstack 11))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.350 0.500 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.400 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 0.380 0.430 0 0 90.000))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 1.980 2.450 0 0 0.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.380 0.430 0 0 90.000))
+   )
+   (model "AON7544.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

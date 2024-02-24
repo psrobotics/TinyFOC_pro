@@ -1,0 +1,252 @@
+
+(EDIF
+  (rename &MA710GQ_Z "MA710GQ_Z")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 02 27 01 45 59)
+      (dataOrigin "4291056/455385/2.49/17/3/Integrated Circuit")
+      (program "SamacSys ECAD Model MA710GQ_Z"
+        (version "1.1"))))
+  (library
+  (rename &MA710GQ_Z "MA710GQ_Z")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &MA710GQ_Z "MA710GQ_Z")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "MA710GQ_Z"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "QFN50P300X300X100-17N-D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Monolithic Power Systems (MPS)"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "MA710GQ-Z"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "946-MA710GQ-Z"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MA710GQ-Z?qs=YCa%2FAAYMW008m2sVybM2dg%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string ""))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://mouser.componentsearchengine.com/Datasheets/1/MA710GQ-Z.pdf"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "MA710GQ_Z"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &SSD "SSD")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &A "A")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &Z "Z")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &MOSI "MOSI")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &CS "CS")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &B "B")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &MISO "MISO")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND "GND")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &PWM "PWM")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &TEST "TEST")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &MGL "MGL")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &SCLK "SCLK")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &VDD "VDD")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &SSCK "SSCK")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &MGH "MGH")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &EP "EP")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &SSD (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &A (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &Z (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &MOSI (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -700) (pt 0 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -700))))
+            )
+            (portImplementation
+              (name &CS (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -1300) (pt 200 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -1300))))
+            )
+            (portImplementation
+              (name &B (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1300) (pt 300 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1300))))
+            )
+            (portImplementation
+              (name &MISO (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1300) (pt 400 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1300))))
+            )
+            (portImplementation
+              (name &GND (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1300) (pt 500 -1100))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1300))))
+            )
+            (portImplementation
+              (name &SCLK (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -400) (pt 1000 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -400))))
+            )
+            (portImplementation
+              (name &MGL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -500) (pt 1000 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -500))))
+            )
+            (portImplementation
+              (name &TEST (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -600) (pt 1000 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -600))))
+            )
+            (portImplementation
+              (name &PWM (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -700) (pt 1000 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -700))))
+            )
+            (portImplementation
+              (name &EP (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &MGH (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &SSCK (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &VDD (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -1100)
+                  (pt 0 -1100)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AON7544'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha & Omega Semiconductors", "AON7544" (!) = "", "AON7544", "Other", "", "", "", "", "", "", "MOSFET N Trench 30V 30A(Tc) 2.2V @ 250uA 5 m @ 20A,10V DFN-8_3x3 EP RoHS", "https://datasheet.lcsc.com/lcsc/1912111437_Alpha---Omega-Semicon-AON7544_C315567.pdf", "0.9 mm"
+END_PART
+
+END.

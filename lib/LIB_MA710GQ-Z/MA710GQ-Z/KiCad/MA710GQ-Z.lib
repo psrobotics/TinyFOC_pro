@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MA710GQ-Z
+#/4291056/455385/2.49/17/3/Integrated Circuit
+DEF MA710GQ-Z IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "MA710GQ-Z" 1050 500 50 H V L CNN
+F2 "QFN50P300X300X100-17N-D" 1050 400 50 H I L CNN
+F3 "https://mouser.componentsearchengine.com/Datasheets/1/MA710GQ-Z.pdf" 1050 300 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs" 1050 200 50 H I L CNN "Description"
+F5 "1" 1050 100 50 H I L CNN "Height"
+F6 "Monolithic Power Systems (MPS)" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "MA710GQ-Z" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "946-MA710GQ-Z" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MA710GQ-Z?qs=YCa%2FAAYMW008m2sVybM2dg%3D%3D" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -400 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SSD 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X Z 3 0 -200 200 R 50 50 0 0 P
+X MOSI 4 0 -300 200 R 50 50 0 0 P
+X CS 5 400 -900 200 U 50 50 0 0 P
+X B 6 500 -900 200 U 50 50 0 0 P
+X MISO 7 600 -900 200 U 50 50 0 0 P
+X GND 8 700 -900 200 U 50 50 0 0 P
+X SCLK 12 1200 0 200 L 50 50 0 0 P
+X MGL 11 1200 -100 200 L 50 50 0 0 P
+X TEST 10 1200 -200 200 L 50 50 0 0 P
+X PWM 9 1200 -300 200 L 50 50 0 0 P
+X EP 17 400 600 200 D 50 50 0 0 P
+X MGH 16 500 600 200 D 50 50 0 0 P
+X SSCK 15 600 600 200 D 50 50 0 0 P
+X NC 14 700 600 200 D 50 50 0 0 N
+X VDD 13 800 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -700 200 -700 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library

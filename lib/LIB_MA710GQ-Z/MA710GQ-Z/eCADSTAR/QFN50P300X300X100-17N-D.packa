@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MA710GQ-Z"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-09-08-11:57:12)
+    (mountForm default
+        (footprintRef "QFN50P300X300X100-17N-D")
+        (spec "System")
+    )
+)

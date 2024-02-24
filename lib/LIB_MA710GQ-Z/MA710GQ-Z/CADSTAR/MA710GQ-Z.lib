@@ -1,0 +1,18 @@
+.MA710GQ-Z :1 ;Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs
+QFN50P300X300X100-17N-D
+*STM IC
+*NGS
+*PLB 1="SSD" 2="A" 3="Z" 4="MOSI" 5="CS" 6="B" 7="MISO" 8="GND" 9="PWM" 10="TEST" 11="MGL" 12="SCLK" 13="VDD" 14="NC" 15="SSCK" 16="MGH" 17="EP"
+*MXP 17
+*DFN MA710GQ-Z
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MA710GQ-Z)
+~!Mouser Part Number (946-MA710GQ-Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MA710GQ-Z?qs=YCa%2FAAYMW008m2sVybM2dg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://mouser.componentsearchengine.com/Datasheets/1/MA710GQ-Z.pdf)
+~!Height (1mm)
+~!3D_Model (MA710GQ-Z)
+MA710GQ-Z
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

@@ -1,0 +1,193 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TRANS_CSD18540Q5B">
+<circle x="-4.1275" y="2.2225" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-3.706" y1="2.75" x2="3.706" y2="2.75" width="0.05" layer="39"/>
+<wire x1="3.706" y1="2.75" x2="3.706" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="3.706" y1="-2.75" x2="-3.706" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.706" y1="-2.75" x2="-3.706" y2="2.75" width="0.05" layer="39"/>
+<text x="-3.74" y="2.875" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3.74" y="-3.61" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.764" y1="-2.5" x2="-1.304" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.304" y1="2.5" x2="-1.764" y2="2.5" width="0.127" layer="21"/>
+<circle x="-4.1275" y="2.2225" radius="0.1" width="0.2" layer="51"/>
+<polygon width="0.0001" layer="1">
+<vertex x="-0.984" y="-2.26"/>
+<vertex x="-0.984" y="2.26"/>
+<vertex x="2.866" y="2.26"/>
+<vertex x="2.866" y="-2.26"/>
+</polygon>
+<polygon width="0.0001" layer="29">
+<vertex x="-1.084" y="-2.36"/>
+<vertex x="-1.084" y="2.36"/>
+<vertex x="3.556" y="2.36"/>
+<vertex x="3.556" y="1.45"/>
+<vertex x="2.966" y="1.45"/>
+<vertex x="2.966" y="1.09"/>
+<vertex x="3.556" y="1.09"/>
+<vertex x="3.556" y="0.18"/>
+<vertex x="2.966" y="0.18"/>
+<vertex x="2.966" y="-0.18"/>
+<vertex x="3.556" y="-0.18"/>
+<vertex x="3.556" y="-1.09"/>
+<vertex x="2.966" y="-1.09"/>
+<vertex x="2.966" y="-1.45"/>
+<vertex x="3.566" y="-1.45"/>
+<vertex x="3.566" y="-2.36"/>
+</polygon>
+<rectangle x1="-3.293" y1="1.624" x2="-2.221" y2="2.186" layer="31"/>
+<rectangle x1="-3.293" y1="0.354" x2="-2.221" y2="0.916" layer="31"/>
+<rectangle x1="-3.293" y1="-0.916" x2="-2.221" y2="-0.354" layer="31"/>
+<rectangle x1="-3.293" y1="-2.186" x2="-2.221" y2="-1.624" layer="31"/>
+<rectangle x1="2.527" y1="1.651" x2="3.293" y2="2.159" layer="31"/>
+<rectangle x1="2.527" y1="0.381" x2="3.293" y2="0.889" layer="31"/>
+<rectangle x1="2.527" y1="-0.889" x2="3.293" y2="-0.381" layer="31"/>
+<rectangle x1="2.527" y1="-2.159" x2="3.293" y2="-1.651" layer="31"/>
+<rectangle x1="0.947" y1="0.15" x2="2.241" y2="0.896" layer="31"/>
+<rectangle x1="0.947" y1="-0.896" x2="2.241" y2="-0.15" layer="31"/>
+<rectangle x1="0.947" y1="1.196" x2="2.241" y2="1.942" layer="31"/>
+<rectangle x1="0.947" y1="-1.942" x2="2.241" y2="-1.196" layer="31"/>
+<rectangle x1="-0.697" y1="-1.942" x2="0.597" y2="-1.196" layer="31"/>
+<rectangle x1="-0.697" y1="-0.896" x2="0.597" y2="-0.15" layer="31"/>
+<rectangle x1="-0.697" y1="0.15" x2="0.597" y2="0.896" layer="31"/>
+<rectangle x1="-0.697" y1="1.196" x2="0.597" y2="1.942" layer="31"/>
+<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<smd name="5" x="2.77" y="-1.905" dx="1.372" dy="0.71" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="2.77" y="-0.635" dx="1.372" dy="0.71" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="2.77" y="0.635" dx="1.372" dy="0.71" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="2.77" y="1.905" dx="1.372" dy="0.71" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="1" x="-2.77" y="1.905" dx="1.372" dy="0.71" layer="1" cream="no"/>
+<smd name="2" x="-2.77" y="0.635" dx="1.372" dy="0.71" layer="1" cream="no"/>
+<smd name="3" x="-2.77" y="-0.635" dx="1.372" dy="0.71" layer="1" cream="no"/>
+<smd name="4" x="-2.77" y="-1.905" dx="1.372" dy="0.71" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CSD18540Q5B">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-8.89" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-8.89" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CSD18540Q5B" prefix="Q">
+<description>60V, N-Channel NexFET(TM) Power MOSFET 8-VSON-CLIP -55 to 150 &lt;a href="https://pricing.snapeda.com/parts/CSD18540Q5B/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CSD18540Q5B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRANS_CSD18540Q5B">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Availability" value="In Stock"/>
+<attribute name="MP" value="CSD18540Q5B"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/CSD18540Q5B/?ref=eda"/>
+<attribute name="Package" value="VSON-CLIP-8 Texas Instruments"/>
+<attribute name="Description" value="
+60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 2.2 mOhm
+"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

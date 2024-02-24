@@ -1,0 +1,262 @@
+LIB MA710GQ-Z
+ZONE 1 2 1 50.000 50.000 0.000 0.000 0 A 1
+GRID 1 1 1 1 1 1 1 4
+SHT 1 1 1 0 18 24 30
+PROP 0 componentType 1
+parts
+ENDPROP
+PROP 0 componentKind 1
+101
+ENDPROP
+PROP 0 partName 1
+MA710GQ-Z
+ENDPROP
+VIEW 1 1 0 -1 -1 21 12 0 1.000 3 reference
+VIEW 1 1 0 -1 -1 21 10 0 1.000 3 partName
+ENDSHT
+LINE 1 -1 -1 -1 0 0 0
+POINT - 4 8
+POINT - 20 8
+POINT - 20 -14
+POINT - 4 -14
+POINT - 4 8
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 0
+POINT - 4 0
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -2
+POINT - 4 -2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -4
+POINT - 4 -4
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 0 -6
+POINT - 4 -6
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 8 -18
+POINT - 8 -14
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 10 -18
+POINT - 10 -14
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 12 -18
+POINT - 12 -14
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 14 -18
+POINT - 14 -14
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 24 0
+POINT - 20 0
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 24 -2
+POINT - 20 -2
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 24 -4
+POINT - 20 -4
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 24 -6
+POINT - 20 -6
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 8 12
+POINT - 8 8
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 10 12
+POINT - 10 8
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 12 12
+POINT - 12 8
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 14 12
+POINT - 14 8
+ENDLIN
+LINE 1 -1 -1 -1 -1 -1 -1
+POINT - 16 12
+POINT - 16 8
+ENDLIN
+PIN 1 1 0 0
+PROP 0 pinLabel 1
+SSD
+ENDPROP
+PROP 0 pinNumber 1
+1
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 0.4 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 0 0 1.000 3 pinLabel
+ENDPIN
+PIN 2 1 0 -2
+PROP 0 pinLabel 1
+A
+ENDPROP
+PROP 0 pinNumber 1
+2
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -1.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -2 0 1.000 3 pinLabel
+ENDPIN
+PIN 3 1 0 -4
+PROP 0 pinLabel 1
+Z
+ENDPROP
+PROP 0 pinNumber 1
+3
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -3.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -4 0 1.000 3 pinLabel
+ENDPIN
+PIN 4 1 0 -6
+PROP 0 pinLabel 1
+MOSI
+ENDPROP
+PROP 0 pinNumber 1
+4
+ENDPROP
+VIEW 1 1 0 -1 -1 2.8 -5.6 0 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 4.6 -6 0 1.000 3 pinLabel
+ENDPIN
+PIN 5 1 8 -18
+PROP 0 pinLabel 1
+CS
+ENDPROP
+PROP 0 pinNumber 1
+5
+ENDPROP
+VIEW 1 1 0 -1 -1 7.6 -15.2 90 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 8 -13.4 90 1.000 3 pinLabel
+ENDPIN
+PIN 6 1 10 -18
+PROP 0 pinLabel 1
+B
+ENDPROP
+PROP 0 pinNumber 1
+6
+ENDPROP
+VIEW 1 1 0 -1 -1 9.6 -15.2 90 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 10 -13.4 90 1.000 3 pinLabel
+ENDPIN
+PIN 7 1 12 -18
+PROP 0 pinLabel 1
+MISO
+ENDPROP
+PROP 0 pinNumber 1
+7
+ENDPROP
+VIEW 1 1 0 -1 -1 11.6 -15.2 90 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 12 -13.4 90 1.000 3 pinLabel
+ENDPIN
+PIN 8 1 14 -18
+PROP 0 pinLabel 1
+GND
+ENDPROP
+PROP 0 pinNumber 1
+8
+ENDPROP
+VIEW 1 1 0 -1 -1 13.6 -15.2 90 1.000 2 pinNumber
+VIEW 2 1 0 -1 -1 14 -13.4 90 1.000 3 pinLabel
+ENDPIN
+PIN 9 1 24 0
+PROP 0 pinLabel 1
+SCLK
+ENDPROP
+PROP 0 pinNumber 1
+12
+ENDPROP
+VIEW 1 1 0 -1 -1 21.2 0.4 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 19.4 0 0 1.000 5 pinLabel
+ENDPIN
+PIN 10 1 24 -2
+PROP 0 pinLabel 1
+MGL
+ENDPROP
+PROP 0 pinNumber 1
+11
+ENDPROP
+VIEW 1 1 0 -1 -1 21.2 -1.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 19.4 -2 0 1.000 5 pinLabel
+ENDPIN
+PIN 11 1 24 -4
+PROP 0 pinLabel 1
+TEST
+ENDPROP
+PROP 0 pinNumber 1
+10
+ENDPROP
+VIEW 1 1 0 -1 -1 21.2 -3.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 19.4 -4 0 1.000 5 pinLabel
+ENDPIN
+PIN 12 1 24 -6
+PROP 0 pinLabel 1
+PWM
+ENDPROP
+PROP 0 pinNumber 1
+9
+ENDPROP
+VIEW 1 1 0 -1 -1 21.2 -5.6 0 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 19.4 -6 0 1.000 5 pinLabel
+ENDPIN
+PIN 13 1 8 12
+PROP 0 pinLabel 1
+EP
+ENDPROP
+PROP 0 pinNumber 1
+17
+ENDPROP
+VIEW 1 1 0 -1 -1 7.6 9.2 90 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 8 7.4 90 1.000 5 pinLabel
+ENDPIN
+PIN 14 1 10 12
+PROP 0 pinLabel 1
+MGH
+ENDPROP
+PROP 0 pinNumber 1
+16
+ENDPROP
+VIEW 1 1 0 -1 -1 9.6 9.2 90 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 10 7.4 90 1.000 5 pinLabel
+ENDPIN
+PIN 15 1 12 12
+PROP 0 pinLabel 1
+SSCK
+ENDPROP
+PROP 0 pinNumber 1
+15
+ENDPROP
+VIEW 1 1 0 -1 -1 11.6 9.2 90 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 12 7.4 90 1.000 5 pinLabel
+ENDPIN
+PIN 16 1 14 12
+PROP 0 pinLabel 1
+NC
+ENDPROP
+PROP 0 pinNumber 1
+14
+ENDPROP
+VIEW 1 1 0 -1 -1 13.6 9.2 90 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 14 7.4 90 1.000 5 pinLabel
+ENDPIN
+PIN 17 1 16 12
+PROP 0 pinLabel 1
+VDD
+ENDPROP
+PROP 0 pinNumber 1
+13
+ENDPROP
+VIEW 1 1 0 -1 -1 15.6 9.2 90 1.000 0 pinNumber
+VIEW 2 1 0 -1 -1 16 7.4 90 1.000 5 pinLabel
+ENDPIN
+ENDLIB

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AON7544"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AON7544")
+        (spec "default")
+    )
+)

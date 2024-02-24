@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AON7544
+#/2503379/455385/2.49/11/3/MOSFET (N-Channel)
+DEF AON7544 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "AON7544" 850 200 50 H V L CNN
+F2 "AON7544" 850 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/lcsc/1912111437_Alpha---Omega-Semicon-AON7544_C315567.pdf" 850 0 50 H I L CNN
+F4 "MOSFET N Trench 30V 30A(Tc) 2.2V @ 250uA 5 m @ 20A,10V DFN-8_3x3 EP RoHS" 850 -100 50 H I L CNN "Description"
+F5 "0.9" 850 -200 50 H I L CNN "Height"
+F6 "Alpha & Omega Semiconductors" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AON7544" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 0 -400 200 R 50 50 0 0 P
+X D_2 6 0 -500 200 R 50 50 0 0 P
+X D_3 7 1000 0 200 L 50 50 0 0 P
+X D_4 8 1000 -100 200 L 50 50 0 0 P
+X D_5 9 1000 -200 200 L 50 50 0 0 P
+X D_6 10 1000 -300 200 L 50 50 0 0 P
+X D_7 11 1000 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

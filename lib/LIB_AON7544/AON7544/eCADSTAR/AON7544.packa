@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AON7544"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-02-23-08:33:06)
+    (mountForm default
+        (footprintRef "AON7544")
+        (spec "System")
+    )
+)

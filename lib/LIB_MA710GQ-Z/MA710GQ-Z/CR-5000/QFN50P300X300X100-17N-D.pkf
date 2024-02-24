@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "QFN50P300X300X100-17N-D"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "QFN50P300X300X100-17N-D")
+        (spec "default")
+    )
+)

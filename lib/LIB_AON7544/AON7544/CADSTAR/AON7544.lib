@@ -1,0 +1,20 @@
+.AON7544 :1 ;MOSFET N Trench 30V 30A(Tc) 2.2V @ 250uA 5 m @ 20A,10V DFN-8_3x3 EP RoHS
+AON7544
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4" 9="D_5" 10="D_6" 11="D_7"
+*MXP 11
+*DFN AON7544
+~!Manufacturer_Name (Alpha & Omega Semiconductors)
+~!Manufacturer_Part_Number (AON7544)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/lcsc/1912111437_Alpha---Omega-Semicon-AON7544_C315567.pdf)
+~!Height (0.9mm)
+~!3D_Model (AON7544)
+AON7544
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 
