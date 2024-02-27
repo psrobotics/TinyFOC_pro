@@ -4,6 +4,8 @@
 <br><img src="pic/3D_enc_as5047p_2023-03-03.png" width="200">
 <img src="pic/3D_enc_ma710_2023-03-03.png" width="200"><br>
 
+<br><img src="pic/VID_20230407_015352.gif" width="500"><br>
+
 
 * Compact brushless motor driver modified from [mit mini cheetah driver](https://github.com/bgkatz/3phase_integrated)
 * 12 bit GMR-based encoder with MA710 or AS5047p
